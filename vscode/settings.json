@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "jshint.enable": true,
+    "jscs.enable": true,
+    "javascript.formatOnSave": false,
+    "javascript.validate.enable": true,
+    "javascript.validate.lint.comparisonOperatorsNotStrict": "warning",
+    "javascript.suggest.alwaysAllWords": false,
+    "javascript.suggest.useCodeSnippetsOnMethodSuggest": false,
+    "javascript.validate.lint.unusedFunctions": "warning",
+
+    // "editor.insertSpaces": "auto",
+
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/bower_components": false
+    },
+
+    "workbench.editor.showTabs": false
+}
